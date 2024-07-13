@@ -23,11 +23,12 @@ Scenario: Delete user User Name: novak and validate user has been deleted
 * Browser driver (ChromeDriver)
 
 You may install the prerequisites by running:
-Windows:
 
-    pip3 install -r requirements.txt
+For Windows:
 
-Linux (Ubuntu):
+    pip install -r requirements.txt
+
+For Linux (Ubuntu):
 
     pip3 install -r requirements.txt
     
