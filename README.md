@@ -22,7 +22,7 @@ Scenario: Delete user User Name: novak and validate user has been deleted
 * Robot Framework Seleniumlibrary
 * Browser driver (ChromeDriver)
 
-You may install the prerequisites by running:
+You may install the prerequisites by following command:
 
 For Windows:
 
