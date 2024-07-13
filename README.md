@@ -29,6 +29,11 @@ You may install the prerequisites by running:
 ## Execute basic setup test run:
 
     $ robot tests/web_page_data_check.robot
+    
+You also can only run one of test case by follwing command:
+
+    $ robot --test "Add User And Validate" tests\web_table_check.robot
+    $ robot --test "Delete User And Validate" tests\web_table_check.robot
 
 ## Execution Flow
 Scenario1: Add a user and validate the user has been added to the table
