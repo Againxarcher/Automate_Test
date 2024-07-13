@@ -36,7 +36,7 @@ For Linux (Ubuntu):
 
     $ robot tests/web_table_check.robot
     
-You also can only run one of test case by follwing command:
+You also can only run one of test case by follwing commands:
 
     $ robot --test "Add User And Validate" tests\web_table_check.robot
     $ robot --test "Delete User And Validate" tests\web_table_check.robot
