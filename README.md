@@ -31,9 +31,15 @@ You may install the prerequisites by running:
     $ robot tests/web_page_data_check.robot
 
 ## Execution Flow
-Scenario: Add a user and validate the user has been added to the table
+Scenario1: Add a user and validate the user has been added to the table
 1. Open the broswer and provide the URL.
-2. Check the button "add user" is exist.
+2. Check if "Add User" button exists.
 3. Click the button to add a new user.
-4. Input required information.
-5. Check the new user added.
+4. Input the required information.
+5. Check if the new user has been added.
+
+Scenario2: Delete user User Name: novak and validate user has been deleted
+1. Open the broswer and provide the URL.
+2. Check if the user exists.
+3. Click the delete button to delete a user.
+4. Check if the user has been deleted.
