@@ -23,9 +23,14 @@ Scenario: Delete user User Name: novak and validate user has been deleted
 * Browser driver (ChromeDriver)
 
 You may install the prerequisites by running:
+Windows:
 
     pip3 install -r requirements.txt
 
+Linux (Ubuntu):
+
+    pip3 install -r requirements.txt
+    
 ## Execute basic setup test run:
 
     $ robot tests/web_table_check.robot
