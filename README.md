@@ -32,7 +32,7 @@ For Linux (Ubuntu):
 
     pip3 install -r requirements.txt
     
-## Execute basic setup test run:
+## Execute basic test run:
 
     $ robot tests/web_table_check.robot
     
