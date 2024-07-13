@@ -29,3 +29,11 @@ You may install the prerequisites by running:
 ## Execute basic setup test run:
 
     $ robot tests/web_page_data_check.robot
+
+## Execution Flow
+Scenario: Add a user and validate the user has been added to the table
+1. Open the broswer and provide the URL.
+2. Check the button "add user" is exist.
+3. Click the button to add a new user.
+4. Input required information.
+5. Check the new user added.
