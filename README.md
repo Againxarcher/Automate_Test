@@ -15,9 +15,17 @@ Scenario: Add a user and validate the user has been added to the table
 
 Scenario: Delete user User Name: novak and validate user has been deleted
 
-Installing requirement python package:
 
-    $ pip install -r requirements.txt
-Execute basic setup test run:
+## Requirements
+* Python 3.x
+* Robot Framework
+* Robot Framework Seleniumlibrary
+* Browser driver (ChromeDriver)
+
+You may install the prerequisites by running:
+
+    pip3 install -r requirements.txt
+
+## Execute basic setup test run:
 
     $ robot tests/web_page_data_check.robot
