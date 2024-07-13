@@ -28,7 +28,7 @@ You may install the prerequisites by running:
 
 ## Execute basic setup test run:
 
-    $ robot tests/web_page_data_check.robot
+    $ robot tests/web_table_check.robot
     
 You also can only run one of test case by follwing command:
 
